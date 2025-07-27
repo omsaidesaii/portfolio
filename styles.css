@@ -616,9 +616,9 @@ h2 {
 
 /* Footer */
 .footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: var(--background-light);
+      text-align: center;
+    padding: 1rem;
+    background-color: #1e293b6e;
 }
 
 /* Animations */
