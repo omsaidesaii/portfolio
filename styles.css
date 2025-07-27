@@ -664,7 +664,9 @@ h2 {
     gap: 1rem;
     min-width: 200px;
   }
-
+.footer p{
+font-size: 10px;
+}
   .nav-links.show {
     display: flex;
   }
