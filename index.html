@@ -163,12 +163,16 @@
     <section id="contact" class="contact">
         <h2>Get In Touch</h2>
         <div class="contact-content">
-            <form class="contact-form">
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit" class="btn primary-btn">Send Message</button>
-            </form>
+           <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="2bf743f3-020d-438c-8d79-1933c07c0a54">
+
+  <input type="text" name="name" placeholder="Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <textarea name="message" placeholder="Message" required></textarea>
+
+  <button type="submit" class="btn primary-btn">Send Message</button>
+</form>
+
         </div>
     </section>
 
