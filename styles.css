@@ -289,6 +289,9 @@ body {
 
 /* Buttons & Social Links */
 .btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
   padding: 0.8rem 2rem;
   border-radius: 8px;
   text-decoration: none;
@@ -297,6 +300,9 @@ body {
 }
 
 .primary-btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
   background-color: var(--primary-color);
   color: var(--text-primary);
 }
