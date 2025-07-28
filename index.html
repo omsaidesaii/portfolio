@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omsai Desai - Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <nav class="navbar">
         <div class="nav-container">
@@ -35,37 +39,46 @@
 
     <section id="home" class="hero" style="background-image: url('assets/hero-bg.svg');">
         <div class="hero-container">
-            <div class="hero-content">
+            <div class="hero-content" data-aos="fade-right">
                 <h1>Hi, I'm <span class="highlight">Omsai Desai</span></h1>
-                <p class="hero-text">Aspiring Full Stack Developer  | Tech Enthusiast</p>
-                <p class="hero-description">I'm passionate about building modern, responsive web applications and exploring AI-powered technologies. With a strong foundation in both frontend and backend development, I love turning creative ideas into real-world digital experiences.</p>
+                <p class="hero-text">Aspiring Full Stack Developer | Tech Enthusiast</p>
+                <p class="hero-description">I'm passionate about building modern, responsive web applications and
+                    exploring AI-powered technologies. With a strong foundation in both frontend and backend
+                    development, I love turning creative ideas into real-world digital experiences.</p>
                 <div class="hero-buttons">
-                    <a href="https://drive.google.com/file/d/1mq3Q9SxCKjQnyUR6fOLf9NSTxYsTnIzf/view?usp=sharing" class="btn primary-btn">View Resume</a>
+                    <a href="https://drive.google.com/file/d/1mq3Q9SxCKjQnyUR6fOLf9NSTxYsTnIzf/view?usp=sharing"
+                        class="btn primary-btn">View Resume</a>
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/omsai-desai" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/omsaidesaii" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="mailto:omsaidesai9@gmail.com" class="social-link" title="Email"><i class="fas fa-envelope"></i></a>
+                        <a href="https://www.linkedin.com/in/omsai-desai" class="social-link" title="LinkedIn"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/omsaidesaii" class="social-link" title="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="mailto:omsaidesai9@gmail.com" class="social-link" title="Email"><i
+                                class="fas fa-envelope"></i></a>
                     </div>
                 </div>
-                
+
             </div>
-            <div class="hero-image">
+            <div class="hero-image" data-aos="fade-left">
                 <img src="assets/avatar.svg" alt="Omsai Desai" class="avatar">
                 <div class="hero-image-bg"></div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="about">
-        <h2>About Me</h2>
+    <section id="about" class="about" data-aos="fade-up">
+        <h2 data-aos="fade-down">About Me</h2>
         <div class="about-content">
-            <p style="font-size: 20px; text-align: center;">Hi, I’m Omsai Desai, a tech enthusiast and BCA student passionate about full stack development. I enjoy building responsive websites, exploring modern technologies like React, Node.js, and MongoDB, and constantly learning through hands-on projects.
+            <p style="font-size: 20px; text-align: center;">Hi, I’m Omsai Desai, a tech enthusiast and BCA student
+                passionate about full stack development. I enjoy building responsive websites, exploring modern
+                technologies like React, Node.js, and MongoDB, and constantly learning through hands-on projects.
 
-    I love turning ideas into functional digital experiences and enjoy working on creative designs, collaborative projects, and real-world problem-solving.</p>
+                I love turning ideas into functional digital experiences and enjoy working on creative designs,
+                collaborative projects, and real-world problem-solving.</p>
         </div>
     </section>
 
-    <section id="skills" class="skills">
+    <section id="skills" class="skills" data-aos="fade-up">
         <h2>Skills</h2>
         <div class="skills-grid">
             <div class="skill-card"><i class="fab fa-html5"></i>HTML</div>
@@ -82,24 +95,28 @@
         </div>
     </section>
 
-    <section id="projects" class="projects">
+    <section id="projects" class="projects" data-aos="fade-up">
         <h2>Projects</h2>
         <div class="projects-grid">
-            
 
-<div class="project-card featured">
+
+            <div class="project-card featured">
                 <div class="project-image">
                     <img src="project img/taskly.png" alt="E-commerce Website">
                     <div class="project-overlay">
                         <div class="project-links">
-                            <a href="https://taskly-web-sepia.vercel.app/" target="_blank" class="btn-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="https://github.com/omsaidesaii/taskly-web" target="_blank" class="btn-code"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="https://taskly-web-sepia.vercel.app/" target="_blank" class="btn-demo"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/omsaidesaii/taskly-web" target="_blank" class="btn-code"><i
+                                    class="fab fa-github"></i> Source Code</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-content">
                     <h3>Taskly</h3>
-                    <p>A simple, interactive todo app built with HTML, CSS, and JavaScript. Features localStorage persistence, task editing, deletion, completion tracking, a progress bar, and confetti on completion.</p>
+                    <p>A simple, interactive todo app built with HTML, CSS, and JavaScript. Features localStorage
+                        persistence, task editing, deletion, completion tracking, a progress bar, and confetti on
+                        completion.</p>
                     <div class="technologies">
                         <span>HTML</span>
                         <span>CSS</span>
@@ -113,14 +130,17 @@
                     <img src="project img/weather.png" alt="E-commerce Website">
                     <div class="project-overlay">
                         <div class="project-links">
-                            <a href="https://weather-app-eight-orcin-22.vercel.app/" target="_blank" class="btn-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="https://github.com/omsaidesaii/weather-app" target="_blank" class="btn-code"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="https://weather-app-eight-orcin-22.vercel.app/" target="_blank" class="btn-demo"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/omsaidesaii/weather-app" target="_blank" class="btn-code"><i
+                                    class="fab fa-github"></i> Source Code</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-content">
                     <h3>Weather-App</h3>
-                    <p>A simple, responsive app that fetches and displays real-time weather data by city using the OpenWeatherMap API with dynamic icons.</p>
+                    <p>A simple, responsive app that fetches and displays real-time weather data by city using the
+                        OpenWeatherMap API with dynamic icons.</p>
                     <div class="technologies">
                         <span>HTML</span>
                         <span>CSS</span>
@@ -128,21 +148,25 @@
                     </div>
                 </div>
             </div>
-            
+
 
             <div class="project-card featured">
                 <div class="project-image">
                     <img src="project img/golf.png" alt="E-commerce Website">
                     <div class="project-overlay">
                         <div class="project-links">
-                            <a href="https://golf-website-sand.vercel.app/" target="_blank" class="btn-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="https://github.com/omsaidesaii/golf-website" target="_blank" class="btn-code"><i class="fab fa-github"></i> Source Code</a>
+                            <a href="https://golf-website-sand.vercel.app/" target="_blank" class="btn-demo"><i
+                                    class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="https://github.com/omsaidesaii/golf-website" target="_blank" class="btn-code"><i
+                                    class="fab fa-github"></i> Source Code</a>
                         </div>
                     </div>
                 </div>
                 <div class="project-content">
                     <h3>Modern Golf-Website</h3>
-                    <p>A visually animated golf-themed website inspired by Sidcup Family Golf, built with HTML, CSS, JavaScript, GSAP, and VanillaTilt.js. Features smooth scroll animations, a video hero section, custom cursor, and interactive UI elements.</p>
+                    <p>A visually animated golf-themed website inspired by Sidcup Family Golf, built with HTML, CSS,
+                        JavaScript, GSAP, and VanillaTilt.js. Features smooth scroll animations, a video hero section,
+                        custom cursor, and interactive UI elements.</p>
                     <div class="technologies">
                         <span>HTML</span>
                         <span>CSS</span>
@@ -153,25 +177,26 @@
             </div>
 
 
-           <a style="text-align: center; width: 155px; padding: 0.8rem 1rem;font-weight: 600;" href="https://github.com/omsaidesaii?tab=repositories" class="btn primary-btn">Other Projects</a>
+            <a style="text-align: center; width: 155px; padding: 0.8rem 1rem;font-weight: 600;"
+                href="https://github.com/omsaidesaii?tab=repositories" class="btn primary-btn">Other Projects</a>
 
-            
-            </div>
+
+        </div>
         </div>
     </section>
 
-    <section id="contact" class="contact">
+    <section id="contact" class="contact" data-aos="fade-up">
         <h2>Get In Touch</h2>
         <div class="contact-content">
-           <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-  <input type="hidden" name="access_key" value="2bf743f3-020d-438c-8d79-1933c07c0a54">
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="2bf743f3-020d-438c-8d79-1933c07c0a54">
 
-  <input type="text" name="name" placeholder="Name" required>
-  <input type="email" name="email" placeholder="Email" required>
-  <textarea name="message" placeholder="Message" required></textarea>
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
 
-  <button type="submit" class="btn primary-btn">Send Message</button>
-</form>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
 
         </div>
     </section>
@@ -180,6 +205,15 @@
         <p>&copy; 2025 Omsai Desai. All rights reserved.</p>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+    </script>
     <script src="script.js"></script>
 </body>
+
 </html>
