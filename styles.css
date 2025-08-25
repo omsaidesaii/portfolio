@@ -259,6 +259,8 @@ body {
   height: auto;
   position: relative;
   z-index: 2;
+  border:3px solid #7c3aed;
+  border-radius: 50%;
 }
 
 .hero-image-bg {
